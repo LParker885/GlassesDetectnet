@@ -1,7 +1,7 @@
 # GlassesDetectnet
 Project for Jetson AI specialist certification
 
-Forum post with video:
+Forum post with video: https://forums.developer.nvidia.com/t/jetson-based-glasses-finder/199491
 
 # Description
 This poject attempts to solve a difficult problem: how to find your glasses if you've lost them, because you can't see them! 
