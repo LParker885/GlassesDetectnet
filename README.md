@@ -19,10 +19,15 @@ The Data directory stores the dataset that the model was trained on.
 ``` bash 
 $ git clone https://github.com/LParker885/GlassesDetectnet.git
 ```
+Move to the model directory and extract the model file:
+``` bash
+$ cd GlassesDetectnet/Model
+$ tar -xvf ssd-mobilenet.onnx.tar.gz
+```
 - Plug in a compatable USB camera: the Logitech C270 camera is reccomended because that is what the project was tested with, but other compatible cameras should work. 
 - Navigate to the GlassesDetectnet directory and run the python script to find your glasses! (It may take a few seconds to start up, but once running it should get about 40 FPS in MAXN power mode.)
 - For best results, use glasses with thick black frames such as the ones that can be seen in the photos in the Data directory.  
 ``` bash
-$ cd GlassesDetectnet
+$ cd ~/GlassesDetectnet
 $ python3 detection.py
 ``` 
